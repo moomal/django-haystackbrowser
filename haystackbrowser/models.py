@@ -12,8 +12,6 @@ class HaystackResults(models.Model):
 
         the model is marked as unmanaged, so will never get created via ``syncdb``.
     """
-    def validate:
-        pass
     
     class Meta:
         managed = False
