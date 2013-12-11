@@ -1,7 +1,7 @@
 from django.core.paginator import Paginator, InvalidPage
 from django.utils.translation import ugettext_lazy as _, string_concat
 from django.http import Http404, HttpResponseRedirect
-from django.utils.functional import update_wrapper
+from functools import update_wrapper
 from django.shortcuts import render_to_response
 from django.template import RequestContext
 from django.contrib import admin
